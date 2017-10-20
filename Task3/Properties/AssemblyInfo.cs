@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
 [assembly: AssemblyTitle("Task3")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Akka lab.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Grigoryan Artem")]
 [assembly: AssemblyProduct("Task3")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCopyright("Copyright © 2017 Artem Grigoryan")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

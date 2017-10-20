@@ -60,8 +60,14 @@
   <ItemGroup>
     <Compile Include="Actors\BuyerActor.cs" />
     <Compile Include="Actors\BuyerBuilderActor.cs" />
+    <Compile Include="Actors\ConsoleWriterActor.cs" />
+    <Compile Include="Actors\InputParserActor.cs" />
+    <Compile Include="Actors\Model\Messages.cs" />
     <Compile Include="Actors\SellerActor.cs" />
     <Compile Include="Actors\SellerBuilderActor.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Actors\ConsoleReaderActor.cs" />
+    <Compile Include="Actors\FileValidationActor.cs" />
     <Compile Include="Model\Buyer.cs" />
     <Compile Include="Model\Deal.cs" />
     <Compile Include="Model\Seller.cs" />

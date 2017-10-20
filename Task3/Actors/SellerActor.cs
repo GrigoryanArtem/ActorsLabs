@@ -50,7 +50,10 @@ namespace Task3.Actors
         {
             Receive<DealAccept>(d =>
             {
-                Logging.GetLogger(Context).Info($"The {Sender.Path.Name} made a deal with the {Self.Path.Name}.");
+                string message = $"The {Sender.Path.Name} made a deal with the {Self.Path.Name}.";
+                Logging.GetLogger(Context).Info(message);
+                Context.ActorSelection(@"akka://mainActorSystem/user/consoleWriter")
+                        .Tell(message);
 
                 Become(Selled);
             });
